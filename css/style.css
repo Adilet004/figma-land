@@ -72,7 +72,7 @@ body {
   padding: 10px 25px;
 }
 #header .header__submit__btn:hover {
-  background: #8d1515;
+  background: #9dc5e3;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -114,7 +114,7 @@ body {
   padding: 16px 40px;
 }
 #hero .hero__btn2:hover {
-  background: #8d1515;
+  background: #9dc5e3;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -185,7 +185,7 @@ body {
   margin-left: 42%;
 }
 #gitHub .gitHub__buttons:hover {
-  background: #8d1515;
+  background: #9dc5e3;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -240,7 +240,7 @@ body {
   border: 1px solid #E8E8E8;
   box-sizing: border-box;
   border-radius: 39px;
-  padding: 9px 54px;
+  padding: 8px 54px;
   margin: 10px;
 }
 #color .color__cusok__aser__reset {
@@ -256,7 +256,7 @@ body {
   padding: 15px 95px;
 }
 #color .color__cusok__index:hover {
-  background: #8d1515;
+  background: #9dc5e3;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -314,7 +314,7 @@ body {
   border-radius: 35px;
 }
 #book .book__movie__none:hover {
-  background: #8d1515;
+  background: #9dc5e3;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -338,6 +338,221 @@ body {
   text-align: center;
   letter-spacing: 0.2px;
   color: #FFFFFF;
+  margin: 60px;
+}
+#drop .drop__img-s {
+  position: absolute;
+  left: 43%;
+  top: 561%;
+}
+#drop .drop__h5 {
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  margin: 5px;
+}
+#drop .drop__h4 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+#drop .drop__html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#drop .drop__html--buts {
+  background: #38A3F1;
+  border-radius: 35px;
+  padding: 16px 47px;
+  margin: 6%;
+  color: #FFFFFF;
+}
+
+#more {
+  padding-bottom: 4%;
+}
+#more .more {
+  text-align: center;
+}
+#more .more__apple {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin: 4%;
+}
+#more .more__store {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin: 6%;
+}
+#more .more__cards {
+  display: flex;
+  justify-content: center;
+}
+#more .more__cards__carta {
+  width: 22%;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 2% 1%;
+  margin: 0 1%;
+}
+#more .more__cards__carta--marta {
+  padding: 3% 0;
+}
+#more .more__cards__carta--marta__free {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+#more .more__cards__carta--marta__hand {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+#more .more__cards__carta__terminal {
+  display: flex;
+  flex-direction: row;
+  padding: 4% 0;
+}
+#more .more__cards__carta__terminal__status {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 66px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+#more .more__cards__carta__terminal__elem {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 10px;
+}
+#more .more__cards__carta__terminal__elem__dollar1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+#more .more__cards__carta__terminal__elem__dollar2 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #374754;
+}
+#more .more__cards__carta__buttons {
+  display: flex;
+  justify-content: center;
+}
+#more .more__cards__carta__buttons__btn {
+  background: #38A3F1;
+  border-radius: 35px;
+  padding: 18px 38px;
+}
+#more .more__cards .card3 {
+  background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+#react {
+  background: #D6EBFF;
+}
+#react .react {
+  display: flex;
+  flex-direction: column;
+}
+#react .react__contact {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+#react .react__p1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+#react .react__inter {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 3%;
+  width: 28.33%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#react .react__inter__h01 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14.3816px;
+  line-height: 22px;
+  letter-spacing: 0.065371px;
+  color: #252B42;
+}
+#react .react__inter__input1 {
+  width: 318.72px;
+  height: 35.84px;
+  left: 41px;
+  top: 79px;
+  background: #F5F5F5;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 39px;
+  margin: 20px 0;
+}
+#react .react__inter__input2 {
+  margin: 20px 0;
+  width: 318.72px;
+  height: 35.84px;
+  left: 41px;
+  top: 145.84px;
+  background: #F5F5F5;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 39px;
+}
+#react .react__inter__text {
+  color: #374754;
+  width: 318.72px;
+  height: 126.17px;
+  left: 41px;
+  top: 212.68px;
+  background: #F5F5F5;
+  border: 0.65371px solid #FFFFFF;
+  box-sizing: border-box;
+  margin: 20px 0;
+}
+
+.react__adress {
+  display: flex;
+  justify-content: space-around;
+}
+
+.react__spring {
+  padding-top: 15%;
 }
 
 /*# sourceMappingURL=style.css.map */
