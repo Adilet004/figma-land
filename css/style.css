@@ -603,6 +603,7 @@ body {
 .react__adress {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 60px;
 }
 
 .react__spring {
