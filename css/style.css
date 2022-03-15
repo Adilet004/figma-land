@@ -111,8 +111,10 @@ body {
 }
 #hero .hero__pig {
   margin-left: -150px;
+  margin-top: 15%;
 }
 #hero .hero__title {
+  margin-top: 30%;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 900;
