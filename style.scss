@@ -1,5 +1,6 @@
 @import "reset";
 @import "variables";
+@import "media";
 
 body {
   background: #252B42;
@@ -121,9 +122,10 @@ body {
       padding: 16px 40px;
 
       &:hover {
-        background: #9dc5e3;
+        background: #f106ae;
         transition: .5s;
         cursor: pointer;
+        color:  #7834BE;
       }
 
     }
@@ -222,6 +224,7 @@ body {
         background: #9dc5e3;
         transition: .5s;
         cursor: pointer;
+        color: #252B42;
       }
     }
 
@@ -303,11 +306,11 @@ body {
         background: #EF2779;
         border-radius: 35px;
         padding: 15px 95px;
-
         &:hover {
           background: #9dc5e3;
           transition: .5s;
           cursor: pointer;
+          color: #252B42;
         }
 
       }
@@ -378,11 +381,11 @@ body {
         padding: 16px 60px;
         background: #38A3F1;
         border-radius: 35px;
-
         &:hover {
           background: #9dc5e3;
           transition: .5s;
           cursor: pointer;
+          color: black;
         }
       }
     }
@@ -449,6 +452,11 @@ body {
         padding: 16px 47px;
         margin: 6%;
         color: #FFFFFF;
+        transition: .2s;
+        &:hover {
+          background: #9dc5e3;
+          color: #252B42;
+        }
       }
     }
   }
@@ -555,6 +563,10 @@ body {
             background: #38A3F1;
             border-radius: 35px;
             padding: 18px 38px;
+            &:hover {
+              background: #9dc5e3;
+              color: #374754;
+            }
           }
         }
       }
@@ -585,6 +597,7 @@ body {
       text-align: center;
       letter-spacing: 0.2px;
       color: #252B42;
+     padding-top: 8%;
     }
     &__p1 {
       font-weight: 700;
@@ -593,6 +606,7 @@ body {
       text-align: center;
       letter-spacing: 0.2px;
       color: #252B42;
+      margin: 20px;
     }
     &__inter {
       background: #FFFFFF;
@@ -646,24 +660,132 @@ body {
         box-sizing: border-box;
         margin: 20px 0;
       }
-
+    }
+    &__batl {
+      margin: 4px 0;
+      &--byter {
+        color: #FFFFFF;
+        background: #EF2779;
+        border-radius: 35px;
+        padding: 10px 35px;
+        transition: 2s;
+        &:hover {
+       background: #7834BE;
+          color: #252B42;
         }
+      }
+    }
    }
  }
 
 .react__adress{
   display: flex;
   justify-content: space-around;
+
 }
 .react__spring{
   padding-top: 15%;
+  &--wiss{
+    &__items{
+      margin: 20px 0;
+      .icons{
+        margin-right: 20px;
+        color: #EF2779;
+      }
+      .text__adress{
+        width: 40%;
+        margin-left: 10px;
+        font-family: sans-serif;
+        color: #252B42;
+      }
+     &__inli {
+       display: flex;
+       padding-top: 30px;
+       &__logo{
+         margin: 0 20px;
+       }
+     }
+    }
+  }
 }
-
-
-
 //REACT//
 
 
+
+
+//PAGES//
+#pages {
+  padding-top: 60px;
+
+  .pages {
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+    &__maps{
+      //margin-left: 70px;
+    }
+
+    &__land {
+      &__title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+      }
+
+      &__nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 80px;
+
+        &__menu {
+          width: 100%;
+          font-family: sans-serif;
+          font-size: .9em;
+          color: #FFFFFF;
+          margin: 10px 0;
+        }
+      }
+
+    }
+  }
+}
+.pages__spring1 {
+    &--wiss2 {
+      &__items3 {
+        margin: 20px 0;
+
+        .icons4 {
+          margin-right: 20px;
+          color: #EF2779;
+        }
+
+        .text__adress4 {
+          width: 40%;
+          margin-left: 10px;
+          font-family: sans-serif;
+          color: #FFFFFF;
+        }
+      }
+
+      &__inli4 {
+        display: flex;
+        padding-top: 30px;
+
+        &__logo5 {
+          margin: 0 20px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+
+
+
+//PAGES//
 
 
 

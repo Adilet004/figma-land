@@ -12,6 +12,29 @@ button {
   border: none;
 }
 
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .header .header__nav {
+    display: none;
+  }
+  .header .header__nav .header__nav--item {
+    width: 90%;
+  }
+  .header .header__submit .header__submit__label {
+    display: none;
+  }
+}
+.hero .hero__pig .hero__pig--img {
+  width: 90%;
+}
+.hero .hero__pig .hero__enot {
+  width: 90%;
+}
+
 body {
   background: #252B42;
 }
@@ -114,9 +137,10 @@ body {
   padding: 16px 40px;
 }
 #hero .hero__btn2:hover {
-  background: #9dc5e3;
+  background: #f106ae;
   transition: 0.5s;
   cursor: pointer;
+  color: #7834BE;
 }
 
 #code .code {
@@ -188,6 +212,7 @@ body {
   background: #9dc5e3;
   transition: 0.5s;
   cursor: pointer;
+  color: #252B42;
 }
 #gitHub .gitHub__fff {
   margin-left: 50px;
@@ -259,6 +284,7 @@ body {
   background: #9dc5e3;
   transition: 0.5s;
   cursor: pointer;
+  color: #252B42;
 }
 
 #book .book__groups {
@@ -317,6 +343,7 @@ body {
   background: #9dc5e3;
   transition: 0.5s;
   cursor: pointer;
+  color: black;
 }
 
 #drop .drop {
@@ -369,6 +396,11 @@ body {
   padding: 16px 47px;
   margin: 6%;
   color: #FFFFFF;
+  transition: 0.2s;
+}
+#drop .drop__html--buts:hover {
+  background: #9dc5e3;
+  color: #252B42;
 }
 
 #more {
@@ -463,6 +495,10 @@ body {
   border-radius: 35px;
   padding: 18px 38px;
 }
+#more .more__cards__carta__buttons__btn:hover {
+  background: #9dc5e3;
+  color: #374754;
+}
 #more .more__cards .card3 {
   background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
   border: 1px solid #DEDEDE;
@@ -484,6 +520,7 @@ body {
   text-align: center;
   letter-spacing: 0.2px;
   color: #252B42;
+  padding-top: 8%;
 }
 #react .react__p1 {
   font-weight: 700;
@@ -492,6 +529,7 @@ body {
   text-align: center;
   letter-spacing: 0.2px;
   color: #252B42;
+  margin: 20px;
 }
 #react .react__inter {
   background: #FFFFFF;
@@ -545,6 +583,20 @@ body {
   box-sizing: border-box;
   margin: 20px 0;
 }
+#react .react__batl {
+  margin: 4px 0;
+}
+#react .react__batl--byter {
+  color: #FFFFFF;
+  background: #EF2779;
+  border-radius: 35px;
+  padding: 10px 35px;
+  transition: 2s;
+}
+#react .react__batl--byter:hover {
+  background: #7834BE;
+  color: #252B42;
+}
 
 .react__adress {
   display: flex;
@@ -553,6 +605,78 @@ body {
 
 .react__spring {
   padding-top: 15%;
+}
+.react__spring--wiss__items {
+  margin: 20px 0;
+}
+.react__spring--wiss__items .icons {
+  margin-right: 20px;
+  color: #EF2779;
+}
+.react__spring--wiss__items .text__adress {
+  width: 40%;
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #252B42;
+}
+.react__spring--wiss__items__inli {
+  display: flex;
+  padding-top: 30px;
+}
+.react__spring--wiss__items__inli__logo {
+  margin: 0 20px;
+}
+
+#pages {
+  padding-top: 60px;
+}
+#pages .pages {
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-between;
+}
+#pages .pages__land__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+#pages .pages__land__nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 80px;
+}
+#pages .pages__land__nav__menu {
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  color: #FFFFFF;
+  margin: 10px 0;
+}
+
+.pages__spring1--wiss2__items3 {
+  margin: 20px 0;
+}
+.pages__spring1--wiss2__items3 .icons4 {
+  margin-right: 20px;
+  color: #EF2779;
+}
+.pages__spring1--wiss2__items3 .text__adress4 {
+  width: 40%;
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #FFFFFF;
+}
+.pages__spring1--wiss2__inli4 {
+  display: flex;
+  padding-top: 30px;
+}
+.pages__spring1--wiss2__inli4__logo5 {
+  margin: 0 20px;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */

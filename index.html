@@ -6,8 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
 
@@ -35,8 +36,8 @@
 <section id="hero">
     <div class="container">
         <div class="hero">
-            <div>
-                <img src="./img/@%20browser.svg" class="hero__pig" alt="">
+            <div class="hero__pig">
+                <img src="./img/@%20browser.svg" class="hero__pig--img" alt="">
             </div>
             <div class="hero__enot">
                 <h1 class="hero__title">We focus on
@@ -63,7 +64,7 @@
         <div class="code__option">
             <div class="code__option--elem">
                 <div class="code-menu">
-                    <img src="./img/menu1.svg" alt="">
+                    <img src="./img/menu1.svg" class="code__menu__img" alt="">
                     <h3 class="code__caps">The best products
                         start with Sketch</h3>
                 </div>
@@ -289,7 +290,6 @@
     </div>
 </section>
 
-
 <section id="react">
     <div class="container">
         <div class="react">
@@ -302,41 +302,112 @@
                     <h1 class="react__inter__h01">Contact Us</h1>
                     <input type="text" placeholder="Your Name" class="react__inter__input1">
                     <input type="email" placeholder="Your Email" class="react__inter__input2">
-                    <textarea name="" id="" cols="30" rows="10" class="react__inter__text">Your Message</textarea>
+                    <textarea name="" id="1" cols="30" rows="10" class="react__inter__text">Your Message</textarea>
+                    <div class="react__batl">
+                        <button class="react__batl--byter">
+                            Send
+                        </button>
+                    </div>
                 </div>
 
                 <div class="react__spring">
                     <div class="react__spring--wiss">
-                        <div>
+                        <div class="react__spring--wiss__items">
                             <a href="#">
-                                <i class="fa-solid fa-location-dot"></i>
-                                <a href="#">6386 Spring St undefined Anchorage,<br>
+                                <i class="fa-solid fa-location-dot icons"></i>
+                                <a class="text__adress" href="#">6386 Spring St undefined Anchorage,
                                     Georgia 12473 United States</a>
                             </a>
                         </div>
-                        <div>
+                        <div class="react__spring--wiss__items">
                             <a href="#">
-                                <i class="fa-solid fa-mobile-button"></i>
-                                <a href="#">(843) 555-0130</a>
+                                <i class="fa-solid fa-mobile-button icons"></i>
+                                <a class="text__adress" href="#">(843) 555-0130</a>
                             </a>
 
                         </div>
-                        <div>
+                        <div class="react__spring--wiss__items">
                             <a href="#">
-                                <i class="fa-solid fa-envelope"></i>
-                                <a href="#">willie.jennings@example.com</a>
+                                <i class="fa-solid fa-envelope icons"></i>
+                                <a class="text__adress" href="#">willie.jennings@example.com</a>
                             </a>
-
+                        </div>
+                        <div class="react__spring--wiss__items__inli">
+                            <a class="react__spring--wiss__items__inli__logo" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a class="react__spring--wiss__items__inli__logo" href="#">
+                                <i class="fa-brands fa-facebook-square"></i>
+                            </a>
+                            <a class="react__spring--wiss__items__inli__logo" href="#">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
 </section>
 
+<section id="pages">
+    <div class="container">
+        <div class="pages">
+            <div class="pages__land">
+                <h1 class="pages__land__title">Pages</h1>
+                <nav class="pages__land__nav">
+                    <a class="pages__land__nav__menu" href="#">Eleanor Edwards</a>
+                    <a class="pages__land__nav__menu" href="#">Ted Robertson</a>
+                    <a class="pages__land__nav__menu" href="#">Annette Russell</a>
+                    <a class="pages__land__nav__menu" href="#">Jennie Mckinney</a>
+                    <a class="pages__land__nav__menu" href="#">Gloria Richards</a>
+                </nav>
+            </div>
+
+            <div class="pages__maps">
+                <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.320014906307!2d74.56839001538889!3d42.88719450964112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec80cdab821f1%3A0x32edd8b45c32f976!2z0J_QtdGA0LLQvtC80LDQudGB0LrQuNC5INGA0LDQudC-0L0sINCR0LjRiNC60LXQug!5e0!3m2!1sru!2skg!4v1647257838205!5m2!1sru!2skg"
+                        width="472" height="247" style="border:0; border-radius: 22px" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+
+            <div class="pages__spring1">
+                <div class="pages__spring1--wiss2">
+                    <div class="pages__spring1--wiss2__items3">
+                        <a href="#">
+                            <i class="fa-solid fa-location-dot icons4"></i>
+                            <a class="text__adress4" href="#">6386 Spring St undefined Anchorage,<br>
+                                Georgia 12473 United States</a>
+                        </a>
+                    </div>
+                    <div class="pages__spring1--wiss2__items3">
+                        <a href="#">
+                            <i class="fa-solid fa-mobile-button icons4"></i>
+                            <a class="text__adress4" href="#">(843) 555-0130</a>
+                        </a>
+
+                    </div>
+                    <div class="pages__spring1--wiss2__items3">
+                        <a href="#">
+                            <i class="fa-solid fa-envelope icons4"></i>
+                            <a class="text__adress4" href="#">willie.jennings@example.com</a>
+                        </a>
+                    </div>
+                    <div class="pages__spring1--wiss2__inli4">
+                        <a class="pages__spring1--wiss2__inli4__logo5" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a class="pages__spring1--wiss2__inli4__logo5" href="#">
+                            <i class="fa-brands fa-facebook-square"></i>
+                        </a>
+                        <a class="pages__spring1--wiss2__inli4__logo5" href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 </body>
 </html>

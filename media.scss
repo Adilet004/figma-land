@@ -1,0 +1,63 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .header {
+    .header__nav {
+      display: none;
+
+      .header__nav--item {
+        width: 90%;
+      }
+    }
+
+    .header__submit {
+      .header__submit__label {
+        display: none;
+      }
+    }
+  }
+}
+.hero {
+  .hero__pig {
+    .hero__pig--img {
+      width: 90%;
+    }
+    .hero__enot {
+      width: 90%;
+    }
+  }
+
+
+}
+
+
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 390px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
