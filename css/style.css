@@ -309,6 +309,7 @@ body {
   align-items: center;
 }
 #color .color__box {
+  padding-top: 60px;
   font-size: 22px;
   line-height: 33px;
   text-align: center;
@@ -704,6 +705,9 @@ body {
   font-family: sans-serif;
   color: #252B42;
 }
+.react__spring--wiss__items .text__adress:hover {
+  color: #EF2779;
+}
 .react__spring--wiss__items__inli {
   display: flex;
   padding-top: 30px;
@@ -740,6 +744,10 @@ body {
   font-size: 0.9em;
   color: #FFFFFF;
   margin: 10px 0;
+  transition: 0.1s;
+}
+#pages .pages__land__nav__menu:hover {
+  color: #EF2779;
 }
 
 .pages__spring1--wiss2__items3 {
@@ -754,6 +762,9 @@ body {
   margin-left: 10px;
   font-family: sans-serif;
   color: #FFFFFF;
+}
+.pages__spring1--wiss2__items3 .text__adress4:hover {
+  color: #EF2779;
 }
 .pages__spring1--wiss2__inli4 {
   display: flex;

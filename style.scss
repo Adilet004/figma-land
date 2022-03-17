@@ -272,6 +272,7 @@ body {
 
 
     &__box {
+      padding-top: 60px;
       font-size: 22px;
       line-height: 33px;
       text-align: center;
@@ -716,6 +717,7 @@ body {
 }
 .react__spring{
   padding-top: 15%;
+
   &--wiss{
     &__items{
       margin: 20px 0;
@@ -728,6 +730,9 @@ body {
         margin-left: 10px;
         font-family: sans-serif;
         color: #252B42;
+        &:hover {
+          color: #EF2779;
+        }
       }
      &__inli {
        display: flex;
@@ -777,6 +782,10 @@ body {
           font-size: .9em;
           color: #FFFFFF;
           margin: 10px 0;
+          transition: .1s;
+          &:hover {
+            color: #EF2779;
+          }
         }
       }
 
@@ -798,6 +807,9 @@ body {
           margin-left: 10px;
           font-family: sans-serif;
           color: #FFFFFF;
+          &:hover {
+            color: #EF2779;
+          }
         }
       }
 
