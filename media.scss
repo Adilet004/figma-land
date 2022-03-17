@@ -2,62 +2,80 @@
   .container {
     width: 90%;
   }
-}
-
-@media (max-width: 1024px) {
-
-  .header {
-    .header__nav {
-      display: none;
-
-      .header__nav--item {
-        width: 90%;
-      }
-    }
-
-    .header__submit {
-      .header__submit__label {
-        display: none;
-      }
-    }
+  .hero{
+    flex-wrap: wrap;
+  }
+  .gitHub__fff{
+    transform: scale(.8);
+  }
+  .pages{
+    flex-wrap: wrap;
   }
 }
-.hero {
-  .hero__pig {
-    .hero__pig--img {
-      width: 90%;
-    }
-    .hero__enot {
-      width: 90%;
-    }
-  }
-
-
-}
-
-
-
 @media (max-width: 992px) {
-
+  .header__nav {
+    display: none;
+  }
+  .header__submit__label {
+    display: none;
+  }
+  .gitHub__fff{
+    transform: scale(.7);
+  }
 }
 
-@media (max-width: 768px) {
 
-
+.gitHub__fff {
+  width: 900px;
 }
 
-@media (max-width: 576px) {
-
+.code__option {
+  flex-wrap: wrap;
 }
 
+.more__cards {
+  flex-wrap: wrap;
+}
+
+
+@media (max-width: 756px) {
+.hero__pig--img {
+  width: 800px;
+}
+  .gitHub__fff{
+    transform: scale(.6);
+  }
+
+}
+@media (max-width: 567px) {
+  .hero__pig--img {
+    width: 700px;
+  }
+  .pages__maps{
+    transform: scale(.6) translateX(-200px);
+  }
+
+  .gitHub__fff{
+    transform: scale(.5);
+  }
+}
 @media (max-width: 414px) {
-
+ .hero__pig--img {
+   width: 400px;
+ }
+  .hero__desc {
+    display: flex;
+    justify-content: center;
+  }
+  .gitHub__fff {
+    width: 536px;
+  }
 }
-
-@media (max-width: 390px) {
-
+@media (max-width: 370px) {
+.gitHub__fff {
+  width: 336px;
 }
-
+}
 @media (max-width: 320px) {
 
 }
