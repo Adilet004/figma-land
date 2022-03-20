@@ -11,6 +11,7 @@
   .pages{
     flex-wrap: wrap;
   }
+
 }
 @media (max-width: 992px) {
   .header__nav {
@@ -37,6 +38,10 @@
   flex-wrap: wrap;
 }
 
+.react__adress {
+  flex-wrap: wrap;
+
+}
 
 @media (max-width: 756px) {
 .hero__pig--img {
@@ -46,11 +51,17 @@
     transform: scale(.6);
   }
 
+  .drop__img-s {
+    display: none;
+  }
 }
+
+
 @media (max-width: 567px) {
   .hero__pig--img {
     width: 700px;
   }
+
   .pages__maps{
     transform: scale(.6) translateX(-200px);
   }
@@ -58,6 +69,7 @@
   .gitHub__fff{
     transform: scale(.5);
   }
+
 }
 @media (max-width: 414px) {
  .hero__pig--img {
@@ -69,6 +81,9 @@
   }
   .gitHub__fff {
     width: 536px;
+  }
+  .react__inter{
+    transform: scale(.8);
   }
 }
 @media (max-width: 370px) {

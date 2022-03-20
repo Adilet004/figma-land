@@ -54,6 +54,10 @@ button {
   flex-wrap: wrap;
 }
 
+.react__adress {
+  flex-wrap: wrap;
+}
+
 @media (max-width: 756px) {
   .hero__pig--img {
     width: 800px;
@@ -61,6 +65,10 @@ button {
 
   .gitHub__fff {
     transform: scale(0.6);
+  }
+
+  .drop__img-s {
+    display: none;
   }
 }
 @media (max-width: 567px) {
@@ -88,6 +96,10 @@ button {
 
   .gitHub__fff {
     width: 536px;
+  }
+
+  .react__inter {
+    transform: scale(0.8);
   }
 }
 @media (max-width: 370px) {
@@ -190,7 +202,7 @@ body {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 55px;
+  font-size: calc(22px + 2.6666666667vw);
   line-height: 66px;
   letter-spacing: 0.2px;
   color: #FFFFFF;
@@ -236,28 +248,36 @@ body {
 }
 #code .code__option {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 #code .code__option--elem {
-  padding: 6%;
+  margin-top: 60px;
+  margin-left: 60px;
+  width: 270px;
 }
 #code .code__option--elem .code-menu {
   display: flex;
   flex-direction: row;
 }
 #code .code__option--elem .code-menu .code__caps {
+  margin-left: 20px;
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.1px;
   color: #FFFFFF;
 }
 #code .code__option--elem .shift {
+  margin-top: 30px;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 0.2px;
   color: #FFFFFF;
 }
 
+#gitHub {
+  padding-top: 160px;
+}
 #gitHub .github {
   display: flex;
   flex-direction: column;
@@ -373,19 +393,23 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
-#book .book .book__figma {
-  margin-left: 40px;
+#book .book__figma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  padding: 20px;
+  margin: 20px;
 }
 #book .book__lobel {
+  margin-top: 30px;
   font-family: sans-serif;
   font-size: 18px;
-  line-height: 37px;
+  line-height: 28px;
   letter-spacing: 0.2px;
   color: #FFFFFF;
-  width: 20vw;
-  margin: 20px 0;
   text-align: center;
 }
 #book .book__text {
@@ -393,11 +417,9 @@ body {
   line-height: 18px;
   letter-spacing: 0.1px;
   color: #FFFFFF;
-  margin: 20px 0;
-  text-align: center;
 }
 #book .book__import {
-  margin-left: 110px;
+  margin-top: 30px;
 }
 #book .book__h1 {
   text-align: center;
@@ -619,8 +641,7 @@ body {
 #react .react__inter {
   background: #FFFFFF;
   border-radius: 10px;
-  padding: 3%;
-  width: 28.33%;
+  padding: 30px;
   display: flex;
   justify-content: center;
   flex-direction: column;
