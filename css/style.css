@@ -71,9 +71,14 @@ button {
     display: none;
   }
 }
-@media (max-width: 567px) {
+@media (max-width: 690px) {
   .hero__pig--img {
     width: 700px;
+  }
+}
+@media (max-width: 567px) {
+  .hero__pig--img {
+    width: 600px;
   }
 
   .pages__maps {
